@@ -56,6 +56,7 @@ resource "google_compute_instance" "hashicat" {
       image = "ubuntu-os-cloud/ubuntu-2204-lts"
       labels = {
         department = "devops"
+        billable = "true"
       }
     }
   }
